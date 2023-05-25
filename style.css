@@ -1,7 +1,40 @@
-header{
-  background-color: rgb(228, 26, 26);
+header {
+  background: linear-gradient(red,gray);
+  padding: 50x;
+ display: flex;
+ justify-content: left ;
+
 
 }
- .flex {
-flex-direction: row;
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  flex-direction: row;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  color: black;
+  display: block;
+  padding: 14px 16px;
+  text-align: right;
+  text-decoration: none;
+
+
+
+}
+
+li a:hover {
+
+  background-color: #e68282;
+}
+
+.image {
+  text-align: center;
 }
