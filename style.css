@@ -1,40 +1,29 @@
 header {
-  background: linear-gradient(red,gray);
+  background: linear-gradient(red, gray);
   padding: 50x;
- display: flex;
- justify-content: left ;
-
-
+  display: flex;
+justify-content: space-between;
+padding: 2vh 2vw;
 }
-
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
   flex-direction: row;
+  display: flex;
 }
-
-li {
-  float: left;
-}
-
-li a {
+a {
   color: black;
   display: block;
   padding: 14px 16px;
   text-align: right;
   text-decoration: none;
-
-
-
 }
-
-li a:hover {
+a:hover {
 
   background-color: #e68282;
 }
-
-.image {
+.header-image {
   text-align: center;
 }
